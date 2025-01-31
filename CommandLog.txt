@@ -1,0 +1,13 @@
+$ cd C:/Users/Студент/Desktop/GitRepo/LR2_Mуравьев
+$ mkdir second-repo
+$ cd second-repo
+$ git init
+$ git add README.md
+$ git commit -m "Initial second repository"
+$ git remote add https://github.com/Djemlet/Second-repo.git
+$ git remote add origin https://github.com/Djemlet/Second-repo.git
+$ git branch -M main
+$ git push -u origin main
+$ git add CommandLog.txt
+$ git push
+
