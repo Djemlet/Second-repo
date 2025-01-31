@@ -11,3 +11,349 @@ $ git push -u origin main
 $ git add CommandLog.txt
 $ git push
 
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (master)
+$ git remote add https://github.com/Djemlet/Second-repo.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (master)
+$ git remote add origin https://github.com/Djemlet/Second-repo.git
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (master)
+$ ^C
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (master)
+$ git branch -M main
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push -u neworig main
+fatal: 'neworig' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Djemlet/Second-repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ^C
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ^C
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git add CommandLog.txt
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ^C
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push
+Everything up-to-date
+                                         ~                                                                                                                                                                                                                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hint: Waiting for your editor to close the file...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aborting commit due to empty commit message.
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push
+Everything up-to-date
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   CommandLog.txt
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push
+Everything up-to-date
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ls
+CommandLog.txt  README.md
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m "add log file"
+[main f531d54] add log file
+ 1 file changed, 13 insertions(+)
+ create mode 100644 CommandLog.txt
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 509 bytes | 509.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Djemlet/Second-repo.git
+   474d3e6..f531d54  main -> main
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m "коммит с двумя изменениями"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ^C
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CommandLog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git add CommandLog.txt
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   CommandLog.txt
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m "коммит с двумя изменениями"
+[main daffe7b] коммит с двумя изменениями
+ 1 file changed, 213 insertions(+)
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m "add log file"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git revert HEAD --no-edit
+[main 04bf578] Revert "коммит с двумя изменениями"
+ Date: Fri Jan 31 12:19:05 2025 +0300
+ 1 file changed, 213 deletions(-)
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git commit -m "add log file
+>
+> git push
+>
+>
+> git pust
+>
+>
+>
+> ^C
+
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.62 KiB | 1.62 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Djemlet/Second-repo.git
+   f531d54..04bf578  main -> main
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git add CommandLog.txt
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status^C
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ pwd
+/c/Users/Студент/Desktop/GitRepo/LR2_Mуравьев/second-repo
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ ls
+CommandLog.txt  README.md
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git add CommandLog.txt
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git add README.md
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git branch
+* main
+
+Студент@DESKTOP-DKT4B9M MINGW64 ~/Desktop/GitRepo/LR2_Mуравьев/second-repo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
